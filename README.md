@@ -7,4 +7,4 @@ cd Debain-12
 docker build -t rdx-vm .
 
 # Run the container
-docker run --privileged -p 6080:6080 -p 2221:2221 -v $PWD/vmdata:/data para-vm
+docker run --privileged -p 6080:6080 -p 2221:2221 -v $PWD/vmdata:/data rdx-vm

@@ -25,7 +25,7 @@ RUN curl -L https://cloud.debian.org/images/cloud/bookworm/latest/debian-12-gene
     -o /opt/qemu/debian.img
 
 # Cloud-init meta-data
-RUN echo "instance-id: rdx-vm\nlocal-hostname: para-vm" > /rdx-init/meta-data
+RUN echo "instance-id: rdx-vm\nlocal-hostname: rdx-vm" > /rdx-init/meta-data
 
 # Cloud-init user-data (root login: root/root)
 RUN printf "#cloud-config\n\

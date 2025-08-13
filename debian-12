@@ -30,7 +30,7 @@ RUN echo "instance-id: rdx-vm\nlocal-hostname: rdx-vm" > /rdx-init/meta-data
 # Cloud-init user-data (root login: root/root)
 RUN printf "#cloud-config\n\
 preserve_hostname: false\n\
-hostname: para-vm\n\
+hostname: rdx-vm\n\
 users:\n\
   - name: root\n\
     gecos: root\n\

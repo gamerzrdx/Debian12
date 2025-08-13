@@ -1,5 +1,5 @@
 # Clone the Debian 12 repository
-git clone https://github.com/gamerrdx/Debain-12
+git clone https://github.com/gamerzrdx/Debain-12
 # Go's To Debain-12 Repo
 cd Debain-12
 
